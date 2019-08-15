@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FD38A223051089003323B5 /* magnifier_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD38A023051089003323B5 /* magnifier_1.png */; };
+		04FD38A323051089003323B5 /* magnifier_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD38A123051089003323B5 /* magnifier_0.png */; };
+		04FD38A6230527B0003323B5 /* CCBRKMagnifierView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD38A4230527B0003323B5 /* CCBRKMagnifierView.h */; };
+		04FD38A7230527B0003323B5 /* CCBRKMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD38A5230527B0003323B5 /* CCBRKMagnifierView.m */; };
+		1DF16E1CAC9B9D216A55411BD2AA668F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B26F620671166CB625796C75DD0F85A /* Pods-CCBRKMagnifierView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C79D9EB574B46CEEFB06A6F26AF02779 /* Pods-CCBRKMagnifierView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E22CB38FC1534F2056434A43D633F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		43161980EADAC34DB39EAB9A11BD195E /* CCBRKMagnifierView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06876F0289A74A657288D2B39DCBCF16 /* CCBRKMagnifierView-dummy.m */; };
+		6B98268271BCBB091EFD24480195133D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6D8119970A3CCD7C61B6C828A8EAFE9D /* CCBRKMagnifierView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01179281E2E79D96DD042674806E6E11 /* CCBRKMagnifierView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954C9B4D6E8AD7C669EDF04CA0F625CE /* Pods-CCBRKMagnifierView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF295ED4199CFEABDFF2C198E67B103D /* Pods-CCBRKMagnifierView_Tests-dummy.m */; };
+		CB1F924B3054BD9F59B0B4E8C906F0C7 /* Pods-CCBRKMagnifierView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B5A81C46535475085E95C9619AA184 /* Pods-CCBRKMagnifierView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2BECB0C0C71EB4526C409B6319060A /* Pods-CCBRKMagnifierView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5071590B7B81DF42FC3069AAE21702 /* Pods-CCBRKMagnifierView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40872EFDDA728935E4A1DD0A48F88160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B64142844EAE36F96EEC8005923F43D;
+			remoteInfo = CCBRKMagnifierView;
+		};
+		56A59F080B01FC665C1DD0475EFB17FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB6DCA7561F3B0F015571F46E05FC23;
+			remoteInfo = "Pods-CCBRKMagnifierView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01179281E2E79D96DD042674806E6E11 /* CCBRKMagnifierView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKMagnifierView-umbrella.h"; sourceTree = "<group>"; };
+		04FD38A023051089003323B5 /* magnifier_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier_1.png; sourceTree = "<group>"; };
+		04FD38A123051089003323B5 /* magnifier_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier_0.png; sourceTree = "<group>"; };
+		04FD38A4230527B0003323B5 /* CCBRKMagnifierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCBRKMagnifierView.h; path = CCBRKMagnifierView/Classes/CCBRKMagnifierView.h; sourceTree = "<group>"; };
+		04FD38A5230527B0003323B5 /* CCBRKMagnifierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CCBRKMagnifierView.m; path = CCBRKMagnifierView/Classes/CCBRKMagnifierView.m; sourceTree = "<group>"; };
+		06876F0289A74A657288D2B39DCBCF16 /* CCBRKMagnifierView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCBRKMagnifierView-dummy.m"; sourceTree = "<group>"; };
+		06A1A908EE9AC262AEA443A31BEDC405 /* CCBRKMagnifierView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCBRKMagnifierView.modulemap; sourceTree = "<group>"; };
+		082B0C31E961364C30B96EF9D26D8268 /* Pods_CCBRKMagnifierView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCBRKMagnifierView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D169B4C49F795DB369B4B12D77AC26 /* Pods-CCBRKMagnifierView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCBRKMagnifierView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14799C3EAEFED3ECA0357C9CFB7FA142 /* CCBRKMagnifierView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCBRKMagnifierView-Info.plist"; sourceTree = "<group>"; };
+		1A7A62C11172357D554B41AFE493D751 /* Pods_CCBRKMagnifierView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCBRKMagnifierView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E351C57DADA2BA08E6F2E5ABF7CAD58 /* Pods-CCBRKMagnifierView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCBRKMagnifierView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		22418E1CCC42F7E6ADA4342BEB11E617 /* CCBRKMagnifierView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCBRKMagnifierView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24C2F9B78689BBC1797B9DA5ECCE3626 /* Pods-CCBRKMagnifierView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCBRKMagnifierView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C0A6A76B254AA43639592DDA833B6B3 /* CCBRKMagnifierView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCBRKMagnifierView-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		548EC18748B5EDF6B5AB36551EF5AEAE /* Pods-CCBRKMagnifierView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCBRKMagnifierView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF6D17D04E6042BE98D844B7DE77B00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5ED332A508EB5CEC59AC8C24ACEF1FA9 /* CCBRKMagnifierView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCBRKMagnifierView.xcconfig; sourceTree = "<group>"; };
+		6BC9FAFF978DF74A8FA8EB729C2BA1F9 /* Pods-CCBRKMagnifierView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCBRKMagnifierView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73C3B078BF7DD0D328C03DA995F68C99 /* Pods-CCBRKMagnifierView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCBRKMagnifierView_Example-Info.plist"; sourceTree = "<group>"; };
+		86DC79B99B1B8EC05D7A4999787F143A /* Pods-CCBRKMagnifierView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCBRKMagnifierView_Example.modulemap"; sourceTree = "<group>"; };
+		91FDBA083232EAAC25A2758E7B785BCA /* Pods-CCBRKMagnifierView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCBRKMagnifierView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCBRKMagnifierView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF295ED4199CFEABDFF2C198E67B103D /* Pods-CCBRKMagnifierView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCBRKMagnifierView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B071D0F9C2DAAFE0427EB8FA3A3C49BF /* Pods-CCBRKMagnifierView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCBRKMagnifierView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B93880C3A835F73E485BC948BD8D1E0A /* Pods-CCBRKMagnifierView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCBRKMagnifierView_Tests.modulemap"; sourceTree = "<group>"; };
+		B9B5A81C46535475085E95C9619AA184 /* Pods-CCBRKMagnifierView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCBRKMagnifierView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3A66988B30328718D82E4127BD5F4AD /* Pods-CCBRKMagnifierView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCBRKMagnifierView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6ED6F5BA1FBDD31336914D12812CF0E /* Pods-CCBRKMagnifierView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCBRKMagnifierView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C79D9EB574B46CEEFB06A6F26AF02779 /* Pods-CCBRKMagnifierView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCBRKMagnifierView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE5071590B7B81DF42FC3069AAE21702 /* Pods-CCBRKMagnifierView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCBRKMagnifierView_Example-dummy.m"; sourceTree = "<group>"; };
+		DF45A2CE19CE88FAAE4F5B9D805A5E8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3347340CE06A290EDAFBA10B9A401A8 /* Pods-CCBRKMagnifierView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCBRKMagnifierView_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037DA430C5548DE8448F3C7ABD1A0B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B98268271BCBB091EFD24480195133D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430909E929E978AA8C46A23A632F589E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF16E1CAC9B9D216A55411BD2AA668F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891BB33874F4804AFFB1529A4513ECE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22CB38FC1534F2056434A43D633F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FD389323051016003323B5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04FD38A123051089003323B5 /* magnifier_0.png */,
+				04FD38A023051089003323B5 /* magnifier_1.png */,
+			);
+			name = Assets;
+			path = CCBRKMagnifierView/Assets;
+			sourceTree = "<group>";
+		};
+		1D4DCE40D7B7430F4E42A6D1405184D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */,
+				082B0C31E961364C30B96EF9D26D8268 /* Pods_CCBRKMagnifierView_Example.framework */,
+				1A7A62C11172357D554B41AFE493D751 /* Pods_CCBRKMagnifierView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3751204CB5DBF687AA258DBF66FAB513 /* Pods-CCBRKMagnifierView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				86DC79B99B1B8EC05D7A4999787F143A /* Pods-CCBRKMagnifierView_Example.modulemap */,
+				24C2F9B78689BBC1797B9DA5ECCE3626 /* Pods-CCBRKMagnifierView_Example-acknowledgements.markdown */,
+				C6ED6F5BA1FBDD31336914D12812CF0E /* Pods-CCBRKMagnifierView_Example-acknowledgements.plist */,
+				CE5071590B7B81DF42FC3069AAE21702 /* Pods-CCBRKMagnifierView_Example-dummy.m */,
+				1E351C57DADA2BA08E6F2E5ABF7CAD58 /* Pods-CCBRKMagnifierView_Example-frameworks.sh */,
+				73C3B078BF7DD0D328C03DA995F68C99 /* Pods-CCBRKMagnifierView_Example-Info.plist */,
+				C79D9EB574B46CEEFB06A6F26AF02779 /* Pods-CCBRKMagnifierView_Example-umbrella.h */,
+				91FDBA083232EAAC25A2758E7B785BCA /* Pods-CCBRKMagnifierView_Example.debug.xcconfig */,
+				B071D0F9C2DAAFE0427EB8FA3A3C49BF /* Pods-CCBRKMagnifierView_Example.release.xcconfig */,
+			);
+			name = "Pods-CCBRKMagnifierView_Example";
+			path = "Target Support Files/Pods-CCBRKMagnifierView_Example";
+			sourceTree = "<group>";
+		};
+		37A4D54BAE6738766CCC51E0A1973358 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06A1A908EE9AC262AEA443A31BEDC405 /* CCBRKMagnifierView.modulemap */,
+				5ED332A508EB5CEC59AC8C24ACEF1FA9 /* CCBRKMagnifierView.xcconfig */,
+				06876F0289A74A657288D2B39DCBCF16 /* CCBRKMagnifierView-dummy.m */,
+				14799C3EAEFED3ECA0357C9CFB7FA142 /* CCBRKMagnifierView-Info.plist */,
+				2C0A6A76B254AA43639592DDA833B6B3 /* CCBRKMagnifierView-prefix.pch */,
+				01179281E2E79D96DD042674806E6E11 /* CCBRKMagnifierView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCBRKMagnifierView";
+			sourceTree = "<group>";
+		};
+		39B2212F30BF0ECA7D236C5D3C2C8CE9 /* Pods-CCBRKMagnifierView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B93880C3A835F73E485BC948BD8D1E0A /* Pods-CCBRKMagnifierView_Tests.modulemap */,
+				10D169B4C49F795DB369B4B12D77AC26 /* Pods-CCBRKMagnifierView_Tests-acknowledgements.markdown */,
+				C3A66988B30328718D82E4127BD5F4AD /* Pods-CCBRKMagnifierView_Tests-acknowledgements.plist */,
+				AF295ED4199CFEABDFF2C198E67B103D /* Pods-CCBRKMagnifierView_Tests-dummy.m */,
+				F3347340CE06A290EDAFBA10B9A401A8 /* Pods-CCBRKMagnifierView_Tests-Info.plist */,
+				B9B5A81C46535475085E95C9619AA184 /* Pods-CCBRKMagnifierView_Tests-umbrella.h */,
+				548EC18748B5EDF6B5AB36551EF5AEAE /* Pods-CCBRKMagnifierView_Tests.debug.xcconfig */,
+				6BC9FAFF978DF74A8FA8EB729C2BA1F9 /* Pods-CCBRKMagnifierView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCBRKMagnifierView_Tests";
+			path = "Target Support Files/Pods-CCBRKMagnifierView_Tests";
+			sourceTree = "<group>";
+		};
+		3AA6B764EBF3978FDBE1CECEA47786C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				704C5A08DBE5380BD37A3E77F81FF448 /* CCBRKMagnifierView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		64954242BFF6E1FA83AD672BE22A6348 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				22418E1CCC42F7E6ADA4342BEB11E617 /* CCBRKMagnifierView.podspec */,
+				DF45A2CE19CE88FAAE4F5B9D805A5E8C /* LICENSE */,
+				5CF6D17D04E6042BE98D844B7DE77B00 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		704C5A08DBE5380BD37A3E77F81FF448 /* CCBRKMagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				04FD38A4230527B0003323B5 /* CCBRKMagnifierView.h */,
+				04FD38A5230527B0003323B5 /* CCBRKMagnifierView.m */,
+				04FD389323051016003323B5 /* Assets */,
+				64954242BFF6E1FA83AD672BE22A6348 /* Pod */,
+				37A4D54BAE6738766CCC51E0A1973358 /* Support Files */,
+			);
+			name = CCBRKMagnifierView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C130972D771CB62F73C5827E8B2B4322 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3751204CB5DBF687AA258DBF66FAB513 /* Pods-CCBRKMagnifierView_Example */,
+				39B2212F30BF0ECA7D236C5D3C2C8CE9 /* Pods-CCBRKMagnifierView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3AA6B764EBF3978FDBE1CECEA47786C4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1D4DCE40D7B7430F4E42A6D1405184D3 /* Products */,
+				C130972D771CB62F73C5827E8B2B4322 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15CE7E226C7F08EFAC6387DF78B5DC6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B26F620671166CB625796C75DD0F85A /* Pods-CCBRKMagnifierView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50178A5B1907FCDAF13C0C55A255BA92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD38A6230527B0003323B5 /* CCBRKMagnifierView.h in Headers */,
+				6D8119970A3CCD7C61B6C828A8EAFE9D /* CCBRKMagnifierView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF67EBA9208647ACB94BE388A271F9E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1F924B3054BD9F59B0B4E8C906F0C7 /* Pods-CCBRKMagnifierView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3184A787CD670A0FBD6102EDC09D0D73 /* Pods-CCBRKMagnifierView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485982102853CBEAA60AFAE0F5A3FBEC /* Build configuration list for PBXNativeTarget "Pods-CCBRKMagnifierView_Tests" */;
+			buildPhases = (
+				FF67EBA9208647ACB94BE388A271F9E1 /* Headers */,
+				EE7719A65EBC7D2DA1FB846EEB4D204E /* Sources */,
+				430909E929E978AA8C46A23A632F589E /* Frameworks */,
+				08BC5AFC4B9F7C7AD479C7838500130E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915030D19290357C909029B7975F63B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCBRKMagnifierView_Tests";
+			productName = "Pods-CCBRKMagnifierView_Tests";
+			productReference = 1A7A62C11172357D554B41AFE493D751 /* Pods_CCBRKMagnifierView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78530D550A999A00295FBBAFF29FA696 /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView" */;
+			buildPhases = (
+				50178A5B1907FCDAF13C0C55A255BA92 /* Headers */,
+				797481A8AB2AAA2111B710B25987994B /* Sources */,
+				037DA430C5548DE8448F3C7ABD1A0B58 /* Frameworks */,
+				CFEB6CC782FD7530FBB8A0D333BDCDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCBRKMagnifierView;
+			productName = CCBRKMagnifierView;
+			productReference = ABDA4F3269A42FB4EAF6B45A5540CC5E /* CCBRKMagnifierView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEB6DCA7561F3B0F015571F46E05FC23 /* Pods-CCBRKMagnifierView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AFFCB61AEA19587DDB7C7E01E01D50 /* Build configuration list for PBXNativeTarget "Pods-CCBRKMagnifierView_Example" */;
+			buildPhases = (
+				15CE7E226C7F08EFAC6387DF78B5DC6A /* Headers */,
+				73F5F9A458AA5DD7D94269ECA1887DA4 /* Sources */,
+				891BB33874F4804AFFB1529A4513ECE4 /* Frameworks */,
+				B23602C8D646C596DE370F30A4A5FD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22754BDECF4CF756BAD298551DB7DA12 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCBRKMagnifierView_Example";
+			productName = "Pods-CCBRKMagnifierView_Example";
+			productReference = 082B0C31E961364C30B96EF9D26D8268 /* Pods_CCBRKMagnifierView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D4DCE40D7B7430F4E42A6D1405184D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */,
+				DEB6DCA7561F3B0F015571F46E05FC23 /* Pods-CCBRKMagnifierView_Example */,
+				3184A787CD670A0FBD6102EDC09D0D73 /* Pods-CCBRKMagnifierView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BC5AFC4B9F7C7AD479C7838500130E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23602C8D646C596DE370F30A4A5FD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEB6CC782FD7530FBB8A0D333BDCDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD38A223051089003323B5 /* magnifier_1.png in Resources */,
+				04FD38A323051089003323B5 /* magnifier_0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F5F9A458AA5DD7D94269ECA1887DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2BECB0C0C71EB4526C409B6319060A /* Pods-CCBRKMagnifierView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797481A8AB2AAA2111B710B25987994B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43161980EADAC34DB39EAB9A11BD195E /* CCBRKMagnifierView-dummy.m in Sources */,
+				04FD38A7230527B0003323B5 /* CCBRKMagnifierView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7719A65EBC7D2DA1FB846EEB4D204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C9B4D6E8AD7C669EDF04CA0F625CE /* Pods-CCBRKMagnifierView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22754BDECF4CF756BAD298551DB7DA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCBRKMagnifierView;
+			target = 6B64142844EAE36F96EEC8005923F43D /* CCBRKMagnifierView */;
+			targetProxy = 40872EFDDA728935E4A1DD0A48F88160 /* PBXContainerItemProxy */;
+		};
+		915030D19290357C909029B7975F63B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCBRKMagnifierView_Example";
+			target = DEB6DCA7561F3B0F015571F46E05FC23 /* Pods-CCBRKMagnifierView_Example */;
+			targetProxy = 56A59F080B01FC665C1DD0475EFB17FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D34B083B48A344722974B920993C07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC9FAFF978DF74A8FA8EB729C2BA1F9 /* Pods-CCBRKMagnifierView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Tests/Pods-CCBRKMagnifierView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Tests/Pods-CCBRKMagnifierView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A53161769B248174F3440858346F896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED332A508EB5CEC59AC8C24ACEF1FA9 /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKMagnifierView;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AC87041ECA6159AD55F0F30874CDFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548EC18748B5EDF6B5AB36551EF5AEAE /* Pods-CCBRKMagnifierView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Tests/Pods-CCBRKMagnifierView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Tests/Pods-CCBRKMagnifierView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F1519B3EE19EAB7BAF97BA3270CE085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FDBA083232EAAC25A2758E7B785BCA /* Pods-CCBRKMagnifierView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Example/Pods-CCBRKMagnifierView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Example/Pods-CCBRKMagnifierView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95388B600AC5D54AC44AE06727A50D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED332A508EB5CEC59AC8C24ACEF1FA9 /* CCBRKMagnifierView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCBRKMagnifierView/CCBRKMagnifierView.modulemap";
+				PRODUCT_MODULE_NAME = CCBRKMagnifierView;
+				PRODUCT_NAME = CCBRKMagnifierView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA027B9BC210AFA486D15907432807C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B071D0F9C2DAAFE0427EB8FA3A3C49BF /* Pods-CCBRKMagnifierView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Example/Pods-CCBRKMagnifierView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCBRKMagnifierView_Example/Pods-CCBRKMagnifierView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485982102853CBEAA60AFAE0F5A3FBEC /* Build configuration list for PBXNativeTarget "Pods-CCBRKMagnifierView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC87041ECA6159AD55F0F30874CDFCB /* Debug */,
+				0D34B083B48A344722974B920993C07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AFFCB61AEA19587DDB7C7E01E01D50 /* Build configuration list for PBXNativeTarget "Pods-CCBRKMagnifierView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1519B3EE19EAB7BAF97BA3270CE085 /* Debug */,
+				EA027B9BC210AFA486D15907432807C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78530D550A999A00295FBBAFF29FA696 /* Build configuration list for PBXNativeTarget "CCBRKMagnifierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95388B600AC5D54AC44AE06727A50D3A /* Debug */,
+				2A53161769B248174F3440858346F896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

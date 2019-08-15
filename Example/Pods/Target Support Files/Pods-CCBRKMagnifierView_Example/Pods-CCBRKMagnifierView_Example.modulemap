@@ -1,0 +1,6 @@
+framework module Pods_CCBRKMagnifierView_Example {
+  umbrella header "Pods-CCBRKMagnifierView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

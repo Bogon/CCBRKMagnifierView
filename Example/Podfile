@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CCBRKMagnifierView_Example' do
+  pod 'CCBRKMagnifierView', :path => '../'
+
+  target 'CCBRKMagnifierView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
